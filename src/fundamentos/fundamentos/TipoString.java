@@ -20,6 +20,7 @@ public class TipoString {
         var idade = 33;
         var salario = 12345.987;
 
+
         String maisUmaFrase = "Nome: " + nome + "\nSobrenome: "
                 + sobrenome + "\nIdade " + idade +
                 "\nSalario: " + salario + "\n \n";
@@ -29,10 +30,10 @@ public class TipoString {
                + sobrenome + "\nIdade " + idade +
                 "\nSalario: " + salario + "\n \n");
 
-        System.out.printf("O senhor  %s %s tem %d e ganha R$ %.2f.",
+        System.out.printf("O senhor  %s %s tem %d anos e ganha R$ %.2f.",
                 nome , sobrenome, idade , salario);
 
-        String frase = String.format("\nO senhor  %s %s tem %d e ganha R$ %.2f.",
+        String frase = String.format("\nO senhor  %s %s tem %d anos e ganha R$ %.2f.",
                 nome , sobrenome, idade , salario);
 
         System.out.println(frase);
