@@ -19,7 +19,6 @@ public class Wrapper {
         System.out.println(s.toString());
         System.out.println(i * 3);
         System.out.println(l / 3);
-
         Float f = 123.0f;
         System.out.println(f);
 
