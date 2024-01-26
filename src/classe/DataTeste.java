@@ -15,7 +15,14 @@ public class DataTeste {
         d2.mes = 12;
         d2.ano = 2020;
 
-        System.out.printf("%d/%d/%d", d2.dia,d2.mes,d2.ano);
+        String dataFortmata1 = d1.obterDataFormatada();
+
+
+        System.out.println(dataFortmata1);
+        System.out.println(d2.obterDataFormatada());
+
+
+        d1.imprimirDataFormatada();
 
 
 
